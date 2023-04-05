@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[4.4.0, )"
             },
+            "Aquality.WinAppDriver": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
