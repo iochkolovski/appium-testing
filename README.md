@@ -13,13 +13,11 @@ This project contains automated tests for a mobile application using Appium with
 1. Install [Appium](https://appium.io/) globally:
    ```bash
    npm install -g appium
+
 Start the Appium server:
 
-bash
-Копиране
-Редактиране
 appium
-Set up an emulator or connect a physical device.
+
 
 Clone this repository:
 
@@ -27,9 +25,3 @@ bash
 Копиране
 Редактиране
 git clone https://github.com/iochkolovski/appium-testing.git
-Restore NuGet packages:
-
-bash
-Копиране
-Редактиране
-dotnet restore
