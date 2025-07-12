@@ -14,15 +14,26 @@ This project contains automated tests for a mobile application using Appium with
    ```bash
    npm install -g appium
 
-Start the Appium server:
+2. Start the Appium server:
 
-```bash
-appium
+   ```bash
+   appium
+   ```
+3. Set up an emulator or connect a physical device.
 
+4. Clone this repository:
 
-Clone this repository:
+   ```bash
+   git clone https://github.com/iochkolovski/appium-testing.git
+   ```
+5. Restore NuGet packages:
 
-bash
-Копиране
-Редактиране
-git clone https://github.com/iochkolovski/appium-testing.git
+   ```bash
+   dotnet restore
+   ```
+▶️ Running Tests
+Navigate to the project directory and run the tests with:
+
+   ```bash
+   dotnet test
+   ```
