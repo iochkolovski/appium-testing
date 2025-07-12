@@ -16,6 +16,7 @@ This project contains automated tests for a mobile application using Appium with
 
 Start the Appium server:
 
+```bash
 appium
 
 
